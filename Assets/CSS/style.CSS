@@ -1,0 +1,136 @@
+:root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+/*Cabeçalho*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    max-width: 800px;
+    margin-top: 10px ;
+}
+
+.Nome{
+    text-align: center;
+}
+
+.Inf_Gerais p{
+    margin: 0;
+    font-size: 12px;
+    text-align: right;
+}
+
+/*Principal*/
+
+main{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Objetivo{
+    width: 100%;
+}
+
+#Objetivo p{
+    text-align: left;
+}
+
+#Formacao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Formacao p{
+    align-self: flex-start;
+    margin: 2px;
+}
+
+#Cursos_Adicionais{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Cursos_Adicionais p{
+    align-self: flex-start;
+    margin: 2px;
+}
+
+/*Rodapé*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 4px solid rgb(0, 0, 0) ;
+}
+
+#Linkedin img{
+    max-width: 75px ;
+}
+
+#GitHub img{
+    max-width: 75px ;
+}
+
+#Experiencias img{
+    max-width: 75px ;
+}
+
+/*Página Experiências*/
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.carousel-section {
+    flex-shrink: 0;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.carousel-button {
+    background-color: inherit;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+#prevButton {
+    order: 1;
+}
+
+#nextButton {
+    order: 2;
+}
+
+.carousel-section p{
+    font-size: 14px;
+    text-align: justify;
+}
