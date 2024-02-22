@@ -7,8 +7,10 @@ main{
 
     width: 100%;
     border-bottom: 4px solid rgb(0, 0, 0);
-    height: 500px;
+    height: 100%;
     overflow: auto;
+
+    flex: 1;
 }
 
 section{
