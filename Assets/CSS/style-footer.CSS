@@ -1,0 +1,15 @@
+/*Rodapé*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0rem 0rem 1rem 0rem;
+    padding: 0rem;
+}
+
+#Linkedin img, #GitHub img, #Experiencias img{
+    max-width: 75px ;
+}
