@@ -6,7 +6,7 @@
     align-items: flex-start;
     flex: 1;
     width: 100%;
-    border-bottom: 4px solid rgb(0, 0, 0);
+    /* border-bottom: 4px solid rgb(0, 0, 0); */
     height: 100%;
     overflow: auto;
 }
@@ -29,21 +29,4 @@ section h2, section p{
 #Formacao p, #Cursos_Adicionais p{
     align-self: flex-start;
     margin: 0.125rem 0rem 0rem 0rem;
-}
-
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    margin-bottom: 5px;
-}
-
-nav figure{
-    margin: 1rem 0rem 0rem 0rem;
-}
-
-#Right img, #Left img{
-    max-width: 50px;
-    margin: 0rem;
 }
