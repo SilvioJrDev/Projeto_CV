@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/CSS/style.CSS
-    " />
-    <title>Silvio de Andrade Jr</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Silvio de Andrade Jr</title>
+        <link rel="stylesheet" href="./Assets/CSS/style-global.CSS" />
+        <link rel="stylesheet" href="./Assets/CSS/style-header.CSS" />
+        <link rel="stylesheet" href="./Assets/CSS/style-main.CSS" />
+        <link rel="stylesheet" href="./Assets/CSS/style-footer.CSS" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
 <body>
     <header>
         <div class="Nome">
             <h1>Silvio de Andrade Jr</h1>
         </div>
         <div class="Inf_Gerais">
-            <p><span>E-mail:</span>silvio.jr.dev@gmail.com</p>
-            <p><span>Telefone:</span>(35) 98801-2198</p>
-            <p><span>Habilitação:</span>AB</p>
-            <p><span>Idade:</span>32 Anos</p>
+            <p>E-mail: silvio.jr.dev@gmail.com</p>
+            <p>Telefone: (35) 98801-2198</p>
+            <p>Habilitação: AB</p>
+            <p>Idade: 32 Anos</p>
         </div>
-
     </header>
-    <main id="Experiencias">
-        <div class="carousel">
+    <main id="main">
+        <!-- <div class="carousel"> -->
         <section id="Rgb_tecnologia" class="carousel-section">
             <h1>Experiências</h1>
             <h2>RGB Tecnologia</h2>
@@ -35,7 +40,6 @@
             <p>Obs.: Por ser low-code venho adquirindo experiência no dia a dia com JS e SQL.</p>
         </section>
         <section id="Semar" class="carousel-section">
-            <h1>Experiências</h1>
             <h2>Semar</h2>
             <h3>Início: 07/2021 - 01/2023</h3>
             <p>Coordenador de Processos</p>
@@ -45,7 +49,6 @@
             <p>Dentre as principais entregas cito a criação da Cadeia de Valor e Arquitetura de Processos da companhia, a formação do time de processos e o projeto de melhoria nas entradas de notas fiscais onde robotizamos o lançamento da nota e alcançamos um ROI de mais de 600% com o projeto.</p>
         </section>
         <section id="Macbras" class="carousel-section">
-            <h1>Experiências</h1>
             <h2>Macbras</h2>
             <h3>Início: 12/2019 - 06/2021</h3>
             <p>Analista de Processos</p>
@@ -55,27 +58,38 @@
             <p>Atuei na frente comercial desenvolvendo a estratégia de comissionamento, as planilhas de controle das vendas e os dashboards de resultados da equipe. No marketing liderei a criação das redes sociais da distribuidora e fiz a gestão da Verba de Marketing Compartilhado proveniente de um de seus principais fornecedores e o projeto ao qual mais me orgulho foi o controle de estoque por meio do Excel em um período muito complicado de falta de mercadorias no meio da tecnologia devido a pandemia.</p>
         </section>
         </div>
-        <div class="carousel-navigation">
-            <button id="prevButton" class="carousel-button">Próxima</button>
-            <button id="nextButton" class="carousel-button">Anterior</button>
-        </div>
+        <nav>
+            <figure id="Left">
+                <a href="/index2.html">
+                  <img src= "./Assets/Images/Esquerda.png" alt="seta para esquerda">
+                </a>
+            </figure>
+            <div>
+                <h2>PÁGINA 03</h2>
+            </div>
+            <figure id="Right">
+                <a href="/index3.html" style="visibility: hidden;">
+                  <img src= "./Assets/Images/Direita.png" alt="seta para direita">
+                </a>
+            </figure>
+        </nav>
     </main>
     <footer>
-        <figure id="Experiencias">
-            <a href="index.html">
-              <img src= "./Assets/Images/Esquerda.png" alt="ícone representando uma seta para a esquerda">
-            </a>
-        </figure><figure id="Linkedin">
+        <figure id="Linkedin">
             <a href="https://www.linkedin.com/in/silvio-de-andrade-jr-b1528933/" target="_blank">
               <img src= "./Assets/Images/Linkedin.png" alt="ícone representando a logo do Linkedin">
             </a>
         </figure>
         <figure id="GitHub">
             <a href="https://github.com/SilvioJrDev" target="_blank">
-              <img src= "./Assets/Images/GitHub.png" alt="ícone representando a logo do GitHub">
+              <img src= "./Assets/Images/GitHub.png" alt="ícone representando a logo do GitHub.">
             </a>
         </figure>
-
+        <figure id="Experiencias">
+            <a href="https://www.youtube.com/channel/UCpUhjDvYHX0cpZ6sQQUUvLQ" target="_blank" >
+              <img src= "./Assets/Images/youtube.png" alt="ícone representando uma seta para a direita">
+            </a>
+        </figure>
     </footer>
     <script src="./Assets/Script/script.js"></script>
 </body>

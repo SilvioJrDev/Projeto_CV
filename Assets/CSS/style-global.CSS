@@ -10,5 +10,5 @@ body{
     flex-direction: column;
     padding: 1rem;
     max-width: 800px;
-    min-height: 96vh;
+    height: 96vh;
 }
